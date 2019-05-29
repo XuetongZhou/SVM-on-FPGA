@@ -1,0 +1,14 @@
+module cal_a_grad_mod(
+input clk,
+input rst_,
+input start,
+input ram_label_q,
+input ram_a_q,
+input ram_lib_q,
+output reg[10:0] ram_a_grad_addr,
+output reg ram_a_grad_wren,
+output reg[63:0] ram_a_grad_data,
+output reg finish
+);
+
+endmodule
